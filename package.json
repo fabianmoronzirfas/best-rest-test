@@ -1,0 +1,35 @@
+{
+  "name": "best-rest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "now:deploy": "now",
+    "now:alias": "now alias",
+    "now": "npm run now:deploy && npm run now:alias"
+  },
+  "keywords": [],
+  "author": "Fabian Morón Zirfas",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.7.0",
+    "eslint-config-unobtrusive": "^1.2.2",
+    "eslint-plugin-jest": "^21.25.0",
+    "nodemon": "^1.18.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

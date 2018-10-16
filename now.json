@@ -1,0 +1,11 @@
+{
+  "name": "best-rest-test",
+  "alias": "best-rest-test",
+  "type": "npm",
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": 1
+    }
+  }
+}
